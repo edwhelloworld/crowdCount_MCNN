@@ -1,0 +1,11 @@
+ File "D:\codeTest\PycharmPrj\crowdCount\McnnCrowdcnt\src\network.py", line 47, in load_net
+    param = torch.from_numpy(np.asarray(h5f[k]))   #param = torch.from_numpy(np.asarray(h5f[prefix+k]))
+  File "h5py\_objects.pyx", line 54, in h5py._objects.with_phil.wrapper (C:\Minonda\conda-bld\h5py_1474482825505\work\h5py\_objects.c:2705)
+  File "h5py\_objects.pyx", line 55, in h5py._objects.with_phil.wrapper (C:\Minonda\conda-bld\h5py_1474482825505\work\h5py\_objects.c:2663)
+  File "D:\Python27\Anaconda2\envs\py3\lib\site-packages\h5py\_hl\group.py", line 166, in __getitem__
+    oid = h5o.open(self.id, self._e(name), lapl=self._lapl)
+  File "h5py\_objects.pyx", line 54, in h5py._objects.with_phil.wrapper (C:\Minonda\conda-bld\h5py_1474482825505\work\h5py\_objects.c:2705)
+  File "h5py\_objects.pyx", line 55, in h5py._objects.with_phil.wrapper (C:\Minonda\conda-bld\h5py_1474482825505\work\h5py\_objects.c:2663)
+  File "h5py\h5o.pyx", line 190, in h5py.h5o.open (C:\Minonda\conda-bld\h5py_1474482825505\work\h5py\h5o.c:3458)
+KeyError: "Unable to open object (Object 'dme.branch1.0.conv.weight' doesn't exist)"
+
